@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Times New Roman, serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url("") format('woff'),
+    url("") format('truetype'),
+    url("") format('svg');
+}
+
+@font-face {
+    font-family: Times New Roman, serif;
+    font-weight: normal;
+    font-style: normal;
+		src: url("") format('woff');
+		url("") format('truetype'),
+    url("") format('svg');
+}

@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url("background.png") repeat scroll 0% 0% rgb(255, 255, 255);
+    background-size: cover;
+    font-family: Tahoma, Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    width: 100%;
+}
+a {
+    color: rgb(10, 120, 194);
+    outline: medium none;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin: 0px 0px 11px;
+}
+strong,
+b {
+    font-weight: bolder;
+}
+img {
+    border: medium none;
+}
+h1 {
+    margin: 10px 0px;
+    font-size: 21px;
+}
+h2 {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+h3 {
+    margin: 2px 0px 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.ord_button {
+    background-color: #5098B0;
+    color: #ffffff !important;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 25px;
+    box-shadow: 2px 3px 8px #999999;
+    text-decoration: none !important;
+    border-radius: 8px;
+    border: 3px solid #ffffff;
+    margin: 20px 0px 30px;
+    line-height: 27px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.ord_button:hover {
+    background-color: #63376A;
+    box-shadow: 2px 3px 3px #999999;
+    text-decoration: none !important;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+.header {
+    width: 960px;
+    margin: 0px auto 20px;
+    background: url("header.png") no-repeat scroll 0% 0% transparent;
+    height: 131px;
+    cursor: pointer;
+}
+.left-column {
+    float: left;
+    width: 570px;
+    background: none repeat scroll 0% 0% white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.sidebar {
+    float: left;
+    width: 309px;
+    font-size: 12px;
+}
+.sidebar-last-posts {
+    background: none repeat scroll 0% 0% white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.sidebar-last-post {
+    margin-bottom: 0px;
+}
+.sidebar-last-post a {
+    color: rgb(72, 155, 31);
+}
+.sidebar-last-post-info {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+.sidebar-last-post-info-login {
+    color: rgb(187, 34, 92);
+    margin-right: 5px;
+}
+.sidebar-last-post-info-date {
+    margin-right: 5px;
+    color: rgb(119, 119, 119);
+}
+.sidebar-last-post-info-comments {
+    color: rgb(119, 119, 119);
+    text-decoration: underline;
+}
+.sidebar-bloggers {
+    background: none repeat scroll 0% 0% white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.sidebar-bloggers-avatar {
+    display: inline-block;
+}
+.sidebar-bloggers img {
+    margin: 5px;
+}
+.footer {
+    clear: both;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: rgb(119, 119, 119);
+}
+.photo {
+    width: 100%;
+    height: auto;
+}
+.vk-container {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    line-height: 17px;
+    color: black;
+    text-decoration: none;
+}
+.vk-link {
+    text-decoration: none ! important;
+    cursor: default ! important;
+}
+.vk-header {
+    background: none repeat scroll 0% 0% rgb(218, 226, 232);
+    padding: 4px 4px 4px 6px;
+    margin-bottom: 10px;
+}
+.vk-logo {
+    background: url("vk-logo.gif") no-repeat scroll 0% 0% transparent;
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-top: -1px;
+}
+.vk-header-text {
+    padding: 2px 3px 1px;
+    line-height: 100%;
+    color: rgb(69, 104, 142);
+    font-weight: bold;
+}
+.vk-avatar img {
+    float: left;
+    margin-right: 10px;
+}
+.vk-comment,
+.vk-comment-load {
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid rgb(218, 225, 232);
+    padding-bottom: 15px;
+}
+.vk-comment:last-child {
+    border-bottom: 0px none;
+}
+.vk-comment-name {
+    color: rgb(43, 88, 122);
+    font-weight: bold;
+    font-size: 12px;
+}
+.vk-comment-text {
+    margin-left: 60px;
+    color: black;
+}
+.vk-comment-date {
+    margin-left: 60px;
+    color: rgb(153, 153, 153);
+}
+.vk-comment-like {
+    position: absolute;
+    right: -5px;
+    bottom: 10px;
+    background: url("like.png") no-repeat scroll left center transparent;
+    width: 30px;
+    height: 16px;
+    display: inline-block;
+}
+.vk-comment-like:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.vk-comment-like-count {
+    padding-left: 14px;
+    font-weight: bold;
+    color: rgb(114, 149, 178);
+    font-size: 10px;
+}
+.vk-comment-answer {
+    color: rgb(43, 88, 122);
+}
+.vk-comment-answer:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+@media (max-width: 960px){
+    body {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+   .header {
+        width: 100%;
+	    margin: 0px auto 20px;
+	    background: url("header.png") no-repeat scroll 0% 0% transparent;
+	    height: 90px;
+	    cursor: pointer;
+	    background-size: cover;
+    }
+   
+    .sidebar {
+        display: none;
+    }
+    .left-column {
+        width: 96%;
+        float: none;
+        margin: 0;
+        padding: 10px 2%;
+        box-shadow: none;
+        border-radius: 0%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .img-social {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footer {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    .title{
+        font-size: 30px !important;
+    }
+}
+
+@media(max-width: 375px){
+	.header {
+        width: 100%;
+	    margin: 0px auto 20px;
+	    background: url("header.png") no-repeat scroll 13% 0% transparent;
+	    height: 90px;
+	    cursor: pointer;
+	    background-size: cover;
+    }
+}
+
+@media(max-width: 320px){
+	.header {
+        width: 100%;
+	    margin: 0px auto 20px;
+	    background: url("header_mob.png") no-repeat scroll transparent;
+	    height: 76px;
+	    cursor: pointer;
+	    background-size: contain;
+    }
+}

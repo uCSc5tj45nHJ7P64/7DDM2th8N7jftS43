@@ -1,0 +1,195 @@
+/* Всплывашка */
+
+.oui {    width: 781px;    height: 460px;    /*background: #7ca0cc;*/    background: rgba(60,114,181,1);    background: -moz-linear-gradient(-45deg, rgba(60,114,181,1) 0%, rgba(123,159,204,1) 100%);    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(60,114,181,1)), color-stop(100%, rgba(123,159,204,1)));    background: -webkit-linear-gradient(-45deg, rgba(60,114,181,1) 0%, rgba(123,159,204,1) 100%);    background: -o-linear-gradient(-45deg, rgba(60,114,181,1) 0%, rgba(123,159,204,1) 100%);    background: -ms-linear-gradient(-45deg, rgba(60,114,181,1) 0%, rgba(123,159,204,1) 100%);    background: linear-gradient(135deg, rgba(60,114,181,1) 0%, rgba(123,159,204,1) 100%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c72b5', endColorstr='#7b9fcc', GradientType=1 );    font-family: Roboto!important;    position: relative;    border: 5px solid #dddddd;}
+.actsss {    display: none !important;}
+.eeee {    background-color: rgba(0, 0, 0, 0.7);    display: none;   top:0; left:0;   width: 100%;    height: 100%;    z-index: 10000;    position: fixed;        cursor: pointer;}
+.kmacb-form2 .modal-block {    left: 50%;    margin-left: -396px;    position: fixed;    top: 6%;    z-index: 11000;    width: 792px;    height: 470px;    border-radius: 5px;    border: 0;    box-shadow: none;    font-family: Arial, sans-serif;    overflow: hidden;    color: #222;}
+p.ouimainp {    font-size: 30px;    font-family: Arial,Helvetica,sans-serif;    font-weight: bold;    padding-top: 23px;    display: block;    color: #fff;    text-align: center;}
+.ouimain-text-img {    display: block;    width: 90%;    padding: 0 5%;    margin-top: 27px;}
+.ouimain-img {    float: left;    display: block;    width: 30%;    margin: 0 auto;}
+.ouimain-img img {    display: block;    width: 100%;    margin: 0 auto;}
+.ouimain-text {    display: block;    width: 65%;    float: right;    margin-left: 5%;    margin-top: 15px;}
+.ouimain-text p {    font-family: Arial,Helvetica,sans-serif;    line-height: 1.5;    text-align: left;    color: #fff;    font-size: 22px;    padding-bottom: 5px;}
+.ouimain-text-img:after {    content: '';    display: block;    clear: both;}
+.kmacb-form form {    margin: 30px 0;    text-align: center;    width: 100%;    height: auto;    background: 0;    position: static;    padding: 0;    border: 0;}
+.kmacb-form2 form * {    box-sizing: border-box;}.kmacb-form form input {    float: none;}
+.kmacb-form form input[type=text] {    height: 56px;    line-height: 56px;    color: #222;    border: 2px solid #bdbdbd;    padding: 0 15px;    width: 100%;    display: inline-block;    text-indent: 0;    border-radius: 3px;    background: #fff;    font-size: 20px;    font-style: normal;    box-shadow: none;    position: static;    margin: 0 0 10px 0;}
+.kmacb-form input[type=button] {    position: absolute;    cursor: pointer;    border: 1px solid rgba(73,155,234,1);    background: rgba(222,69,92,1);    background: -moz-linear-gradient(-45deg, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(222,69,92,1)), color-stop(13%, rgba(222,69,92,1)), color-stop(76%, rgba(192,31,55,1)), color-stop(100%, rgba(192,31,55,1)));    background: -webkit-linear-gradient(-45deg, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: -o-linear-gradient(-45deg, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: -ms-linear-gradient(-45deg, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: linear-gradient(135deg, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de455c', endColorstr='#c01f37', GradientType=1 );    color: #fff;    padding: 0 10px;    text-transform: uppercase;    line-height: 60px;    vertical-align: top;    display: block;    text-indent: 0;    font-style: normal;    font-family: Arial,Helvetica,sans-serif;    width: 402px;    height: 64px;    opacity: 1;    bottom: 29px;    margin-left: 195px;    text-align: center;    font-size: 28px;    font-weight: 900;    border-radius: 10px;    transition: 0.6s ease;}
+.kmacb-form form input[type=submit]:hover {    background: rgba(222,69,92,1);    background: -moz-linear-gradient(top, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(222,69,92,1)), color-stop(13%, rgba(222,69,92,1)), color-stop(76%, rgba(192,31,55,1)), color-stop(100%, rgba(192,31,55,1)));    background: -webkit-linear-gradient(top, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: -o-linear-gradient(top, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: -ms-linear-gradient(top, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    background: linear-gradient(to bottom, rgba(222,69,92,1) 0%, rgba(222,69,92,1) 13%, rgba(192,31,55,1) 76%, rgba(192,31,55,1) 100%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de455c', endColorstr='#c01f37', GradientType=0 );}
+
+/* Всплывашка */
+
+
+
+
+/* Футер */
+
+
+.ftrsale {
+    display: block;
+    width: 100%;
+    background: url("urn_3Ascrapbook_3Adownload_3Aerror_3Ahttp_3A//news24-info.ru/sustav-kak-v-molodosti/files/blck.png");
+    color: #ffffff;
+    box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17);
+    -webkit-box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17);
+    -moz-box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.ftrsale .mainfoot {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainfoot .lft {
+    width: 60%;
+    float: left;
+}
+
+.mainfoot .rght {
+    width: 40%;
+    float: right;
+    margin: 10px 0;
+}
+
+.mainfoot p {
+    text-align: center;
+    margin: 10px;
+    line-height: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mainfoot p span {
+    font-size: 25px;
+    color: #ff6600;
+}
+
+.mainfoot .cls {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url("urn_3Ascrapbook_3Adownload_3Aerror_3Ahttp_3A//news24-info.ru/sustav-kak-v-molodosti/files/closew.png") no-repeat;
+}
+
+.ftr-bttn {
+    display: inline-block;
+    outline: none;
+    border: 2px solid #ffb452;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 #ff6600;
+    background-color: #d4d4d4;
+    border-radius: 25px;
+    color: #ff6600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: fantasy;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.ftr-bttn:hover {
+    background-color: #bddabe
+}
+
+.ftr-bttn:active {
+    background-color: #bddabe;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+@media (max-width:768px) {
+	.mainfoot p span {
+    font-size: 15px;
+    color: #ff6600;
+}
+	
+	.ftr-bttn {
+		  font-size: 10px;
+		}
+		
+    .mainfoot .lft {
+        width: 100%;
+        float: none;
+    }
+    .mainfoot .rght {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .mainfoot p {
+        line-height: 15px;
+        font-size: 10px;
+    }
+}
+
+
+/* Футер */
+
+
+
+
+
+/* Показать скрыть */
+.show { display: block !important;}
+
+a.show-img {
+width:90%;
+
+display: inline-block;
+
+border: 1px solid #bbb;
+
+padding: 5px 10px;
+
+border-radius: 3px;
+
+background: #bbbbbb;
+
+color: black;
+
+text-decoration: none;
+
+margin-bottom: 15px;
+
+}
+/* Показать скрыть */
+
+
+
+
+
+/* Кнопка заказать */
+
+a.knopka 
+{
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+
+/* Кнопка заказать */
+
+
+
+/* Чат */
+.table-overflow {overflow-x: auto;}
+@import url("urn_3Ascrapbook_3Adownload_3Aerror_3Ahttp_3A//news24-info.ru/cssindex.html");.lucky-chat{position:fixed;width:320px;height:405px;bottom:-340px;right:10px;background-color:#fff;-webkit-box-shadow:0 10px 35px 0 rgba(39,40,44,.2);box-shadow:0 10px 35px 0 rgba(39,40,44,.2);border-radius:5px 5px 0 0;overflow:hidden;z-index:999;-webkit-transition:top .3s linear,bottom .3s linear;transition:top .3s linear,bottom .3s linear}.lucky-chat *{-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Roboto,sans-serif}.lucky-chat--on{bottom:0}.lucky-chat-header{background-color:#242939;color:#fff;height:65px;padding:10px;font-size:0;position:relative;cursor:pointer}.lucky-chat-header>*{display:inline-block}.lucky-chat-header__logo{background-image:url("urn_3Ascrapbook_3Adownload_3Aerror_3Ahttp_3A//news24-info.ru/sustav-kak-v-molodosti/img/ffe2159a6ae83ccdc0e434e610f0f22f.png");width:34px;height:34px;border-radius:50%;overflow:hidden;margin-right:5px;position:relative;top:3px}.lucky-chat-header__title{font-size:14px;max-width:215px}.lucky-chat-header__caret{position:absolute;display:block;top:50%;right:20px;width:19px;height:11px;margin-top:-5.5px;background-image:url("urn_3Ascrapbook_3Adownload_3Aerror_3Ahttp_3A//news24-info.ru/sustav-kak-v-molodosti/img/c5789617b6bf73228fe5f84c70df3d2a.png");background-repeat:no-repeat;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.lucky-chat--on .lucky-chat-header__caret{-webkit-transform:rotate(0);transform:rotate(0)}.lucky-chat-status{height:22px;line-height:22px;padding:0 15px;background-color:#fff;-webkit-box-shadow:0 10px 35px 0 rgba(39,40,44,.2);box-shadow:0 10px 35px 0 rgba(39,40,44,.2)}.lucky-chat-status__text{font-size:12px;position:relative;-webkit-transition:color .5s linear;transition:color .5s linear}.lucky-chat-status__text--online{color:#93c296}.lucky-chat-status__text--online:before{background-color:#93c296}.lucky-chat-status__text--offline{color:red}.lucky-chat-status__text--offline:before{background-color:red}.lucky-chat-status__text:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px}.lucky-chat-message{height:240px;padding:12px 18px;overflow-x:auto;font-size:14px}.lucky-chat-message__text{padding:10px;border-radius:3px;position:relative}.lucky-chat-message__text:after{position:absolute;content:"";width:0;height:0;border-style:solid}.lucky-chat-message__name{margin-bottom:5px;font-weight:700}.lucky-chat-message__item--doctor .lucky-chat-message__name{color:#fff;background-color:#5fc890;height:50px;margin:0 0 -2px;padding:10px;position:relative}.lucky-chat-message__item--doctor .lucky-chat-message__name>*{vertical-align:middle;display:inline-block}.lucky-chat-message__item--doctor .lucky-chat-message__name-avatar{width:35px;height:35px;background-image:url("urn_3Ascrapbook_3Adownload_3Aerror_3Ahttp_3A//news24-info.ru/sustav-kak-v-molodosti/files/2233.png");background-repeat:no-repeat;border-radius:50%;overflow:hidden;margin-right:3px;position:relative;top:-1px}.lucky-chat-message__item--doctor .lucky-chat-message__name-text{max-width:100px;position:relative;top:-1px}.lucky-chat-message__item--doctor .lucky-chat-message__name:after{position:absolute;content:"";width:0;height:0;border-style:solid;top:0;right:100%;margin-right:-2px;border-color:transparent #5fc890 transparent transparent;border-width:0 14px 12px 0}.lucky-chat-message__item--doctor .lucky-chat-message__text{background-color:#24b871;color:#fff}.lucky-chat-message__item--doctor .lucky-chat-message__text:after{display:none}.lucky-chat-message__item--guest .lucky-chat-message__name{color:#24293b}.lucky-chat-message__item--guest .lucky-chat-message__text{background-color:#c8d8e8}.lucky-chat-message__item--guest .lucky-chat-message__text:after{top:0;left:100%;margin-left:-2px;border-color:#c8d8e8 transparent transparent;border-width:14px 12px 0 0}.lucky-chat-message__item--system .lucky-chat-message__name{color:#d47c3d}.lucky-chat-message__item--system .lucky-chat-message__text{background-color:#d47c3c;color:#fff}.lucky-chat-message__item--system .lucky-chat-message__text:after{top:0;right:100%;margin-right:-2px;border-color:transparent #d47c3c transparent transparent;border-width:0 14px 12px 0}.lucky-chat-message__item+.lucky-chat-message__item{margin-top:15px}.lucky-chat-send{padding:12px 20px;background-color:#eef0f4}.lucky-chat-send__chat{-webkit-appearance:none;-moz-appearance:none;appearance:none;width:100%;height:52px;background-color:#fff;padding:12px;border:1px solid #42b76b;font-size:14px;border-radius:3px;resize:none}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}.animated{-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}/*! normalize.css v3.0.0 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+/* Чат */
+
+
+

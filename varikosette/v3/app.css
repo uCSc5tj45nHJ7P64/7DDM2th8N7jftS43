@@ -1,0 +1,345 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #403c3c;
+    line-height: 1.2;
+    position: relative;
+}
+.shell {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 10px;
+    max-width: 100%;
+}
+section{
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.c-krasn{
+    color: #dc0000;
+}
+.text-center{
+    text-align: center;
+}
+.sec1{
+    color: #000000;
+    margin-top: 1.5em;
+}
+.topLogo {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 65px;
+    width: 498px;
+    background: url("logo.png") no-repeat;
+    padding-left: 215px;
+}
+.logoText{
+	display:inline-block;
+  color: rgb(114, 114, 114);
+  line-height: 1.5;
+  text-align: left;
+    position: relative;
+    top: 11px;
+	font-size:14px;
+}
+
+.topTextWrap{
+    background: url("textback.png") no-repeat center center;
+    display: none;
+    width: 100%;
+    height: 97px;
+    margin-top: 20px;
+    font-size: 16.6px;
+}
+.topTextRedBold{
+	color:#dc0000;
+	font-weight:700;
+}
+
+
+.topText1{
+    color: rgb(98, 94, 94);
+    line-height: 1.765;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 4px;
+  }
+.topText2{
+    color: rgb(98, 94, 94);
+    display: inline-block;
+    width: 100%;
+    line-height: 1.765;
+    text-align: center;
+	padding-top:2px;
+	padding-left:8px;
+  }
+.sec1 h1{
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.sec1 h1 div.green{
+	display:inline;
+	color:#4d940e;
+}
+.sec1 h1 span{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding: 4px;
+    /* padding-top: 1px; */
+    color: rgb(62, 99, 114);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 400;
+}
+
+.slide{
+    background: #eaf9fb;
+    padding: 30px 60px;
+    border-bottom: 5px solid #b2d4dc;
+    padding-bottom: 0em;
+    display: block;
+}
+.img,.text{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.img{
+    width: 240px;
+}
+.slidewrap{
+    margin-top: 2em;
+}
+h2{
+    font-size: 27px;
+    font-weight: bold;
+    color: #312626;
+    margin-bottom: 30px;
+    margin-top: -7px;
+}
+.text{
+    width: 580px;
+    padding-left: 20px;
+    letter-spacing: -0.01em;
+    max-width: 100%;
+}
+.checkboxes-left,.checkboxes-right{
+    float: left;
+    color: #403c3c;
+}
+.checkboxes-left{
+    width: 320px;
+}
+.checkboxes-right{
+    width: 240px;
+}
+.checkbox + label {
+    cursor: pointer;
+}
+.checkbox:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+.checkbox:not(checked) + label {
+    position: relative;/* будем позиционировать псевдочекбокс относительно label */
+    padding: 10px 0 10px 60px;/* захватываем область выбора всего чекбокса */
+    display: block;
+    #margin-bottom: 38px;
+    margin-bottom: 20px;
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: #b2d4dc;
+    pointer-events: none;
+}
+.checkbox:not(checked) + .change:after {
+    background-color: red;
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+    background: #3e6372 url("galka.png") no-repeat center center;
+    pointer-events: all;
+}
+.button, .button2{
+    background: #53b32d url("strelka.png") no-repeat 93% center;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #fafaff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 635px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 12px 10px 12px 0;
+    margin-bottom: 2em;
+}
+.prev,.next{
+    visibility: hidden;
+    position: absolute;
+    top: 20%;
+}
+.hint {
+	position: absolute;
+	line-height: 2em;
+	margin-left: 300px;
+	display: none;
+	color: red;
+}
+.stoya,.sidya{
+    position: relative;
+}
+.sidya:before,.stoya:before{
+    content: 'De pie por';
+      position: relative;
+    bottom: 10px;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.stoya:before{
+    content: 'Sentado por';
+}
+.rslides_tabs{
+    list-style-type: none;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+}
+.rslides_tabs li{
+    float: left;
+    background: #b2d4dc;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 3px;
+}
+.rslides_tabs li.rslides_here{
+    background: #3e6372;
+}
+.rslides_tabs a{
+    text-decoration: none;
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+}
+.finish h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.rslides img.img-center {
+    display: block;
+    margin: auto;
+    width: auto;
+    float: none;
+}
+.finish .button2{
+    width: 280px;
+    margin: 1em auto 2em auto;
+	margin-left:33%;
+	border:none;
+    background-image: none;
+    padding: 12px 10px;
+}
+.fs20{
+    font-size: 20px;
+}
+.rslides_tabs li:last-of-type{
+    visibility: hidden;
+}
+.finish p{
+    line-height: 25px;
+}
+@media all and (max-width: 1000px) {
+    .button, .button2{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hint {
+        margin-left: 0;
+        bottom: 0;
+    }
+
+    .rslides_tabs {
+        left: inherit;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .text {
+        padding-top: 20px;
+    }
+
+    .topLogo{
+        width: 100%;
+            background: #b2d4dc url("logo.png") no-repeat center;
+    }
+    .logoText{
+        display: none;
+    }
+
+    .finish .button2 {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .finish .button2 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .rslides1_on{
+        padding: 10px;
+        
+    }
+
+    .rslides_tabs {
+        left: inherit;
+        width: 223px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .finish .button2 {
+        margin-left: 0;
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .rslides img{
+        float: none;
+        width: 100%;
+    }
+}

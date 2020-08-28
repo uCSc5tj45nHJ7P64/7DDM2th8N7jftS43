@@ -1,0 +1,58 @@
+
+
+.boy, .girl {
+	padding-left: 22px;
+}
+
+.boy {
+	background: url("") no-repeat scroll 2px 0 rgba(0, 0, 0, 0)
+}
+
+.girl {
+	background: url("") no-repeat scroll 2px 0 rgba(0, 0, 0, 0)
+}
+
+.kphotos:after {
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.kphotos .item {
+	text-align: center;
+	width: 25%;
+	height: 290px;
+	float: left;
+}
+
+.kphotos .item img.konkurs-image-thumb, .justbox img {
+	padding: 3px;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+}
+
+.kphotos .item img.konkurs-image-thumb.winner {
+	background-color:#fff6d8;
+	border:3px solid #fddb6d;
+    background-image: none;
+}
+
+.kphotos .item img.konkurs-image-thumb.deleted {
+	padding: 5px;
+	background-color: #eee;
+}
+
+.docinfo2 {
+	background: url("") no-repeat scroll 100% 50% rgba(0, 0, 0, 0);
+	clear: both;
+	float: left;
+	font-size: 12px;
+	margin: 5px 0 22px;
+}
+
+.docinfo2 .row {
+	float: left;
+	padding: 18px 5px 0 10px;
+}

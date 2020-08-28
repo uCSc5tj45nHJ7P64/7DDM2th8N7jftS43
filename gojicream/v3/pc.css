@@ -1,0 +1,38 @@
+body {
+    background: #2f2547 url("bg-pattern.jpg") 50% 0;
+    font-family: Times New Roman, serif;
+    font-size: 12px;
+    color: #333333;
+}
+
+.g-footer-grad {
+    background: url("footer-gradient.png") repeat-x 0 100%;
+    min-height: 100%;
+}
+
+
+.b-members {
+    position: absolute;
+    left: 649px;
+    top: 80px;
+    width: 335px;
+    white-space: nowrap;
+}
+.burger{
+    display: none;
+}
+@media only screen and (max-width: 1024px){
+.burger{
+    text-align: center;
+    display: block;
+}
+.burger img{
+    width: 100%;
+    max-width: 50px;
+}
+@media only screen and (max-width: 590px) {
+    .burger img{
+        max-width: 35px;
+    }
+}
+}
